@@ -1,0 +1,530 @@
+html {
+    font-family: Lato, sans-serif;
+}
+
+*, 
+*::after, 
+*::before {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    
+}
+
+p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+.container {
+    min-height: 100%;
+    height:80vh
+}
+
+#main {
+    overflow: auto;
+    
+
+}
+
+
+.airline__button__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.display__button__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+.airline__barcharts{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;   
+}
+.plane__logo {
+    color: white;
+    max-width: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 10px;
+}
+
+h1 {
+    max-width: 700px;
+    margin: auto; 
+    color: black;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+text{
+    font-size: large;
+}
+
+.center__logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+.display__button {
+    background-color: #3cd0ff;
+    border:none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+}
+
+.display__button:hover{
+    background-color: #18c1e1;
+    cursor: pointer;
+
+}
+
+
+
+.airline__button{
+    background-color: #3cd0ff;
+    border:none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+
+}
+
+.airline__button:hover{
+    background-color: #18c1e1;
+    cursor: pointer;
+
+}
+
+.flex-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+.footer{
+    background-color:  #323f43;
+    padding: 25px 0;
+    margin: 50px 0 0 0;
+    border-top: 4px solid black;
+    color: white;
+    left:0px;
+    bottom:0px;
+    z-index:1;
+    width:100%;
+    height: 15vh;
+
+}
+
+.footer__content{
+    max-width: 640px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.footer .left{
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.footer .right{
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.footer__coloumn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+
+}
+
+.logo__img {
+    width: 250px;
+    height: auto;
+    fill: white;
+}
+
+.footer__item{
+    margin-bottom: 5px;
+
+
+}
+
+.footer__item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#page-wrap {
+    margin: 0px, 50px, 50px, 50px
+}
+
+p {
+    margin: 20px 0;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+
+
+}
+
+.spacer{
+    margin-bottom: 150px;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+	background: #e8faff;
+}
+
+th {
+	background: #3cd0ff;
+	color: white;
+	font-weight: bold;
+	cursor: s-resize;
+	background-repeat: no-repeat;
+       background-position: 3% center;
+       
+}
+
+td, th {
+	padding: 6px;
+	border: 1px solid #b8eeff;
+	text-align: left;
+
+}
+	
+th.des:after {
+    content: "\21E9";
+}
+    
+th.aes:after {
+    content: "\21E7";
+}
+
+
+.task1__header { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+.barcharts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 30px;
+}
+
+.barchart1 {
+    margin-right: 60px;
+}
+
+
+.description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+
+}
+
+.airline__button__list {
+    width: 90%;
+    margin: auto;
+    
+}
+.airline__button {
+    background-color: #3cd0ff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 0px;
+    height: 40px;
+    width: 75px;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+}
+
+.airline__button:hover{
+    background-color: #3496b4;
+    cursor: pointer;
+
+}
+
+
+.piechart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.highlight {
+    fill: palevioletred;
+}
+
+
+
+
+#tooltip {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: 10px;
+    background-color: #3cd0ff;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    pointer-events: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+#tooltip.hidden{
+    display: none;
+}
+
+#tooptip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color:  white;
+}
+
+#tooltip2 {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: 10px;
+    background-color: #3cd0ff;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    pointer-events: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+#tooltip2.hidden{
+    display: none;
+}
+
+#tooptip2 p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#tooltip3 {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    margin-left: 700px;
+    background-color: #3cd0ff;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    pointer-events: none;
+
+}
+
+#tooltip3.hidden{
+    display: none;
+}
+
+#tooptip3 p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}

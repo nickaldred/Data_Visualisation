@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/data/favicon.png">
+    <title>Advanced Table</title>
+	  <link href="/static/css/style.css" rel="stylesheet">
+    <script src="static/js/svg-inject.min.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+
+  </head>
+  <body>
+    <div id="page-wrap">
+
+    <h1>
+      Twitter US Airline Sentiment (using D3.js)
+    </h1>
+
+    <p>Click the table header to sort data according to that column
+    
+    <div id="sortable__table" class="sortable__table">
+    <script src="/static/js/table.js"></script>
+
+    </div>
+
+    </p>
+
+    </div>
+
+  </body>
+
+   <div class="spacer"></div>
+
+  <footer class="footer">
+    <div class="footer__content">
+        <section class="left">
+          <a class="footer__item" href="/portfolio"><img class="logo__img"
+            src="/static/data/logo_svg.svg" onload="SVGInject(this)" 
+            alt="Nick Aldred's Logo"/></a>
+
+
+        </section>
+
+        <section class="right">
+          <div class="footer__coloumn">
+              <a class ="footer__item" 
+              onclick="parent.location='/'">Home Page </a>
+              <a class = "footer__item" 
+              onclick="parent.location='basic'">Basic Table</a>
+          </div>
+
+          <div class="footer__coloumn">
+              <a class ="footer__item" 
+              onclick="parent.location='advanced'">Sortable Table </a>
+              <a class = "footer__item" 
+              onclick="parent.location='creative'">Bar Chart</a>
+
+          </div>
+
+
+
+
+        </section>
+
+</body>
+</html>
+

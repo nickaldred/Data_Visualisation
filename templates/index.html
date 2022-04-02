@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/data/favicon.png">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <script src="static/js/svg-inject.min.js"></script>
+    <title>Home Page</title>
+
+</head>
+
+<body>
+    <div id = "container" class="container">
+    <main  id = "index_main" class="main">
+    <div class="center__logo">
+    <img class="plane__logo" src="/static/data/plane.png"> 
+    </div>
+    <h1>Airline Sentiment Data</h1>
+
+    <p class="description">
+        Please click button below to select way to view airline data
+    </p>
+
+    <ul class="display__button__list">
+        <button class="display__button" onclick="parent.location='basic'">
+        Basic Table</button>
+
+        <button class="display__button" onclick="parent.location='advanced'">
+        Sortable Table</button>
+
+        <button class="display__button" onclick="parent.location='creative'">
+        Bar Chart</button>
+    </ul>
+    </main>
+    </div>
+    
+    
+
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="left">
+                <a class="footer__item" href="/portfolio"><img class="logo__img"
+                src="/static/data/logo_svg.svg" onload="SVGInject(this)" 
+                alt="Nick Aldred's Logo"/></a>
+
+
+            </section>
+
+            <section class="right">
+                <div class="footer__coloumn">
+                    <a class ="footer__item" onclick="parent.location='/'">
+                    Home Page </a>
+                    <a class = "footer__item" onclick="parent.location='basic'">
+                    Basic Table</a>
+                </div>
+
+                <div class="footer__coloumn">
+                    <a class ="footer__item" 
+                    onclick="parent.location='advanced'">Sortable Table </a>
+                    <a class = "footer__item" 
+                    onclick="parent.location='creative'">Bar Chart</a>
+
+                </div>
+
+            </section>
+    </footer>
+        
+
+</body>
+</html>
