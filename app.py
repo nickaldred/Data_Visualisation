@@ -53,4 +53,4 @@ def portfolio():
     return redirect("https://www.nickaldred.com/")
 
 
-app.run(debug=True, host='0.0.0.0', port=81)
+#app.run(debug=True, host='0.0.0.0', port=81)
